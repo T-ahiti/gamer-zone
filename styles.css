@@ -3,7 +3,27 @@
       padding: 0px;
       margin: 0px;
   }
+ 
+  /* shared style */
+  .icon{
+    cursor: pointer;
+  }
+
+  .button-primary{
+    border: none;
+    color: white;
+    border-radius: 60px;
+    padding: 8px;
+    width: 95px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+
   
+ /* header started */
   header{
       height: 100vh;
   }
@@ -115,18 +135,6 @@
     margin-top: 25px;
   }
 
-  .button-primary{
-     border: none;
-     color: white;
-     border-radius: 60px;
-     padding: 8px;
-     width: 95px;
-     height: 45px;
-     font-size: 13px;
-     font-weight: 500;
-     margin-right: 10px;
-     cursor: pointer;
-  }
 
   .pink-btn{
     background-color: rgba(255, 63, 164, 1);
