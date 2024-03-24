@@ -12,6 +12,11 @@ nav{
     gap: 16px;
 }
 
+.nav-img{
+    height: 40px;
+    width: 86.4px;
+}
+
 nav ul{
     display: flex;
     gap: 20px;
