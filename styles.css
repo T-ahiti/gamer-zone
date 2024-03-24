@@ -149,10 +149,34 @@
 
   /* responsive started */
   @media screen  and (max-width:576px){
+    header{
+        height: auto;
+        margin-top: 50px;
+    }
     nav{
         flex-direction: column;
+        height: auto;
+        box-shadow: none;
+        gap: 50px;
+        width: 100vw;
+        text-align: center;
     }
+
     nav ul{
         flex-direction: column;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+    }
+
+    .banner{
+       flex-direction: column-reverse;
+    }
+
+    .banner-img{
+       width: 400px;
+       margin-left: 50px;
     }
   }
