@@ -45,3 +45,12 @@ nav li{
 .pink-g{
    color: rgba(255, 66, 165, 1);
 }
+
+.follow{
+    background-color: rgba(11, 2, 35, 0.1);
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
