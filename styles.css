@@ -192,6 +192,22 @@
     margin-bottom: 15px;
   }
 
+  .card-img:hover{
+   filter: brightness(50%);
+ }
+
+  .card-img::after{
+    content: 'Watch Now';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
   .card-sub{
     color: rgba(83, 76, 100, 1);
     font-size: 13px;
