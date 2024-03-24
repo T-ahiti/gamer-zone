@@ -97,6 +97,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin-bottom: 20px;
   }
   
   .banner li {
@@ -104,4 +105,27 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    color: rgba(83, 76, 100, 1);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 7px;
   }
+
+  .button-primary{
+     border: none;
+     color: white;
+     border-radius: 60px;
+     padding: 6px;
+     width: 90px;
+     height: 40px;
+  }
+
+  .pink-btn{
+    background-color: rgba(255, 63, 164, 1);
+  }
+
+  .blue-btn{
+    background-color: rgba(78, 197, 247, 1);
+    width: 110px;
+  }
+
