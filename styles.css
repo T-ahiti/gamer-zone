@@ -159,6 +159,13 @@
     margin-bottom: 10px;
   }
 
+  .purple-text{
+    background: linear-gradient(to top, rgba(135, 88, 241, 1), rgba(249, 72, 178, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
   .card-des{
     text-align: center;
     margin-bottom: 30px;
@@ -178,6 +185,7 @@
     border: 1px solid black;
     width: 220px;
     height: 320px;
+    cursor: pointer;
   }
 
   .card-img{
