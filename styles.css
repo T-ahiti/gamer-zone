@@ -135,7 +135,6 @@
     margin-top: 25px;
   }
 
-
   .pink-btn{
     background-color: rgba(255, 63, 164, 1);
   }
@@ -145,6 +144,9 @@
     width: 110px;
   }
 
+  .card-container{
+     text-align: center;
+  }
 
 
   /* responsive started */
