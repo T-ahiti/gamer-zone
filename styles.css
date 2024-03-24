@@ -8,19 +8,20 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 85px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 150px;
 }
 
 .nav-logo{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
 }
 
 .nav-img{
-    height: 30px;
-    width: 60px;
+    height: 28px;
+    width: 57px;
 }
 
 nav ul{
@@ -33,13 +34,13 @@ nav li{
     display: flex;
     gap: 15px;
     align-items: center;
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 500;
     color: rgba(60, 53, 79, 1);
 }
 
 .nav-title{
-   font-size: 32px;
+   font-size: 30px;
 }
 
 .pink-g{
@@ -49,7 +50,7 @@ nav li{
 .follow{
     background-color: rgba(11, 2, 35, 0.1);
     border-radius: 5px;
-    height: 35px;
+    height: 39px;
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
