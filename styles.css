@@ -91,7 +91,7 @@
   }
 
   .goat{
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 800;
     background: linear-gradient(to top, rgba(135, 88, 241, 1), rgba(249, 72, 178, 1));
     -webkit-background-clip: text;
@@ -111,13 +111,21 @@
     margin-bottom: 7px;
   }
 
+  .banner-btn{
+    margin-top: 25px;
+  }
+
   .button-primary{
      border: none;
      color: white;
      border-radius: 60px;
-     padding: 6px;
-     width: 90px;
-     height: 40px;
+     padding: 8px;
+     width: 95px;
+     height: 45px;
+     font-size: 13px;
+     font-weight: 500;
+     margin-right: 10px;
+     cursor: pointer;
   }
 
   .pink-btn{
