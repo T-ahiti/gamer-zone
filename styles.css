@@ -1,0 +1,26 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-logo{
+    display: flex;
+    gap: 16px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav li{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
