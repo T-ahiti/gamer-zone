@@ -22,6 +22,7 @@
       display: flex;
       align-items: center;
       gap: 14px;
+      cursor: pointer;
   }
   
   .nav-img{
@@ -96,4 +97,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+  }
+  
+  .banner li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
