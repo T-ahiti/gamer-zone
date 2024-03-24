@@ -148,15 +148,15 @@
   .card-container{
      height: 100vh;
      margin-top: 80px;
-     margin-left: 70px;
-     margin-right: 70px;
+     margin-left: 80px;
+     margin-right: 60px;
   }
 
   .card-title{
     text-align: center;
     font-size: 33px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .purple-text{
@@ -168,7 +168,7 @@
 
   .card-des{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     font-size: 13px;
     color: rgba(83, 76, 100, 1);
     font-weight: 400;
@@ -178,17 +178,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 18px;
   }
 
   .card{
-    width: 225px;
+    width: 230px;
     height: 320px;
     cursor: pointer;
   }
 
   .card-img{
-    width: 225px;
+    width: 230px;
     margin-bottom: 15px;
   }
 
@@ -198,7 +198,7 @@
     font-weight: 500;
     text-align: left;
     margin-top: 0px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
   }
 
 
