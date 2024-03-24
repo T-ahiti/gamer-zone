@@ -81,9 +81,19 @@
   
   .goat-container{
       margin-left: 150px;
+      margin-top: 100px;
   }
   
   .banner-title{
-     font-size: 36px;
-     font-weight: 500;
+     font-size: 34px;
+     font-weight: 600;
+  }
+
+  .goat{
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(to top, rgba(135, 88, 241, 1), rgba(249, 72, 178, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
