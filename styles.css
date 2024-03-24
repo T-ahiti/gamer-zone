@@ -41,6 +41,7 @@ nav li{
     font-size: 12.5px;
     font-weight: 500;
     color: rgba(60, 53, 79, 1);
+    cursor: pointer;
 }
 
 .nav-title{
@@ -65,9 +66,14 @@ nav li{
     display: flex;
     justify-content: space-between;
 }
+
 .banner-writing-container{
     background-image: url('images/group-14-2.png');
     background-repeat: no-repeat;
     width: 600px;
     height: 468px;
+}
+
+.banner-img{
+    margin-right: 150px;
 }
