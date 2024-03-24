@@ -1,14 +1,19 @@
 *{
     font-family: "Work Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 130px;
 }
 
 .nav-logo{
     display: flex;
+    align-items: center;
     gap: 16px;
 }
 
@@ -29,3 +34,10 @@ nav li{
     align-items: center;
 }
 
+.nav-title{
+   font-size: 35px;
+}
+
+.pink-g{
+   color: rgba(255, 66, 165, 1);
+}
