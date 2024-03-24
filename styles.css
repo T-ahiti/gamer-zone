@@ -148,8 +148,8 @@
   .card-container{
      height: 100vh;
      margin-top: 80px;
-     margin-left: 150px;
-     margin-right: 150px;
+     margin-left: 70px;
+     margin-right: 70px;
   }
 
   .card-title{
@@ -176,12 +176,12 @@
 
   .card{
     border: 1px solid black;
-    width: 200px;
+    width: 220px;
     height: 320px;
   }
 
   .card-img{
-    width: 200px;
+    width: 220px;
   }
 
 
