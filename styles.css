@@ -144,10 +144,10 @@
     width: 110px;
   }
 
-/* Section-2: card container started */
+ /* Section-2: card container started */
   .card-container{
      height: 100vh;
-     margin-top: 80px;
+     padding-top: 80px;
      margin-left: 80px;
      margin-right: 60px;
   }
@@ -262,13 +262,34 @@
         text-align: center;
         display: block;
     }
-
+     
     .banner{
        flex-direction: column-reverse;
     }
 
+    .goat-container{
+      margin: 0px;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .banner li {
+      justify-content: center;
+    }
+
     .banner-img{
-       width: 400px;
        margin-left: 50px;
+    }
+
+    /* section:2- responsive */
+    .card-container{
+      height: auto;
+      padding-top: 50px;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+
+    .game-card{
+      flex-direction: column;
     }
   }
