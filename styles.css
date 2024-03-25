@@ -24,9 +24,9 @@
 
   
  /* header started */
-  header{
-      height: 100vh;
-  }
+   header{
+    margin-bottom: 0px;
+   }
   
   /* nav started */
   nav{
@@ -143,6 +143,33 @@
     background-color: rgba(78, 197, 247, 1);
     width: 110px;
   }
+
+
+  /* Section-1: we're gamer started */
+  .we-gamer-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 66, 164, 0.082);
+      margin-top: 0px;
+      box-shadow: 0px -5px 10px rgba(197, 64, 153, 0.21);
+  }
+
+  .we-img{
+    width: 550px;
+  }
+
+  .we-writing-container{
+     text-align: right;
+  }
+ 
+  .we-des{
+    font-size: 12px;
+    color: rgba(83, 76, 100, 1);
+    font-weight: 400;
+  }
+
+
 
  /* Section-2: card container started */
   .card-container{
