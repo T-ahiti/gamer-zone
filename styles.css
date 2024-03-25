@@ -150,6 +150,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      gap: 50px;
+      height: 400px;
       background-color: rgba(255, 66, 164, 0.055);
       margin-top: 0px;
       box-shadow: 0px -5px 10px rgba(197, 64, 153, 0.21);
