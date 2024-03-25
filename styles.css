@@ -221,7 +221,7 @@
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.1s ease;
-    color: rgba(255, 63, 164, 1);
+    color: rgb(255, 78, 172);
     font-weight: 600;
  }
 
