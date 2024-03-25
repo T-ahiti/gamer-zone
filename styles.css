@@ -150,7 +150,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: rgba(255, 66, 164, 0.082);
+      background-color: rgba(255, 66, 164, 0.055);
       margin-top: 0px;
       box-shadow: 0px -5px 10px rgba(197, 64, 153, 0.21);
   }
@@ -163,13 +163,33 @@
      text-align: right;
   }
  
+   .we-title{
+    font-size: 32px;
+    margin-bottom: 12px;
+   }
+
   .we-des{
     font-size: 12px;
     color: rgba(83, 76, 100, 1);
     font-weight: 400;
+    margin-bottom: 5px;
   }
 
+  .know-btn{
+    width: 140px;
+    margin-top:    20px;
+    margin-bottom: 20px;
+  }
 
+  .quote-des{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(83, 76, 100, 1);
+  }
+
+  .quote{
+    
+  }
 
  /* Section-2: card container started */
   .card-container{
