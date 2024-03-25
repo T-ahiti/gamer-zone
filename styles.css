@@ -294,9 +294,11 @@
   /* Section-3:started */
   .third-container{
     display: flex;
+    gap: 0px;
     justify-content: center;
     align-items: center;
     text-align: right;
+    margin-left: 100px;
   }
 
   .third-pink{
@@ -316,14 +318,14 @@
   }
 
   .horse{
-    width: 470px;
+    width: 450px;
   }
 
   .angela{
-    width: 230px;
+    width: 200px;
     position: relative;
-    top:55px ;
-    left: 130px;
+    top: 25px ;
+    left: 132px;
   }
 
   /* responsive started */
