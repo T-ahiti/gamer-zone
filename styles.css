@@ -292,9 +292,8 @@
 
 
   /* Section-3:started */
-  .third-containe{
+  .third-container{
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     text-align: right;
@@ -303,13 +302,28 @@
   .third-pink{
     font-size: 33px;
     font-weight: 700;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
+    background: linear-gradient(to top,rgb(165, 107, 223), rgb(252, 16, 158));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
 
   .third-title{
     font-size: 33px;
     font-weight: 700;
     margin-bottom: 15px;
+  }
+
+  .horse{
+    width: 470px;
+  }
+
+  .angela{
+    width: 230px;
+    position: relative;
+    top:55px ;
+    left: 130px;
   }
 
   /* responsive started */
