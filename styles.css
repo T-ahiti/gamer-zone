@@ -189,7 +189,7 @@
     display: inline-block;
   }
 
-  .card-img{
+  .card .card-img{
     width: 230px;
     margin-bottom: 15px;
     display: block;
@@ -197,24 +197,36 @@
     transition: filter 0.3s ease;
   }
 
-  .card-img:hover{
-   filter: brightness(50%);
+  .card:hover .card-img{
+   filter: brightness(40%);
  }
 
  .play-button{
    position: absolute;
-   top: 50%;
+   top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
    opacity: 0;
    transition: opacity 0.1s ease;
  }
- .card-img:hover .play-button{
+ .card:hover .play-button{
   opacity: 1;
+  cursor: pointer;
  }
 
- .hover-text{
-  
+ .card .hover-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    color: rgba(255, 63, 164, 1);
+    font-weight: 600;
+ }
+
+ .card:hover .hover-text{
+  opacity: 1;
  }
 
   .card-sub{
