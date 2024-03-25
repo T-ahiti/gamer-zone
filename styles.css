@@ -291,6 +291,27 @@
   }
 
 
+  /* Section-3:started */
+  .third-containe{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+  }
+
+  .third-pink{
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .third-title{
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
   /* responsive started */
   @media screen  and (max-width:576px){
     header{
