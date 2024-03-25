@@ -252,6 +252,9 @@
         gap: 50px;
         width: 100vw;
         text-align: center;
+        justify-content: center;
+        margin-left: 80px;
+        margin-bottom: 50px;
     }
 
     nav ul{
@@ -271,6 +274,7 @@
       margin: 0px;
       text-align: center;
       margin-top: 60px;
+      margin-left: 50px;
     }
 
     .banner li {
@@ -283,10 +287,12 @@
 
     /* section:2- responsive */
     .card-container{
-      height: auto;
-      padding-top: 50px;
-      margin-left: 40px;
-      margin-right: 40px;
+     height: auto;
+     padding-top: 50px;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
    }
 
     .game-card{
