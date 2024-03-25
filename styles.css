@@ -152,6 +152,7 @@
       align-items: center;
       gap: 50px;
       height: 400px;
+      width: 100vw;
       background-color: rgba(255, 66, 164, 0.055);
       margin-top: 0px;
       box-shadow: 0px -5px 10px rgba(197, 64, 153, 0.21);
@@ -353,13 +354,16 @@
     .we-gamer-container{
       flex-direction: column;
       flex-direction: column;
-      margin-left: 50px;
       height: auto;
       box-shadow: none;
-      width: 100%;
+      width: 578px;
+      background-color: white;
+      margin-bottom: 40px;
     }
 
     .we-writing-container {
       text-align: center;
     }
+
+  
   }
