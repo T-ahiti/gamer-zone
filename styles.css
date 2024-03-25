@@ -185,28 +185,37 @@
     width: 230px;
     height: 320px;
     cursor: pointer;
+    position: relative;
+    display: inline-block;
   }
 
   .card-img{
     width: 230px;
     margin-bottom: 15px;
+    display: block;
+    height: auto;
+    transition: filter 0.3s ease;
   }
 
   .card-img:hover{
    filter: brightness(50%);
  }
 
-  .card-img::after{
-    content: 'Watch Now';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 20px;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
+ .play-button{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   opacity: 0;
+   transition: opacity 0.1s ease;
+ }
+ .card-img:hover .play-button{
+  opacity: 1;
+ }
+
+ .hover-text{
+  
+ }
 
   .card-sub{
     color: rgba(83, 76, 100, 1);
