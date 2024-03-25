@@ -402,5 +402,22 @@
       text-align: center;
     }
 
+    .third-container{
+      flex-direction: column;
+      margin-left: 180px;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .three-images{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .angela{
+      position: relative;
+      top: ;
+    }
   
   }
