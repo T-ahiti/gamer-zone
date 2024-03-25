@@ -415,9 +415,16 @@
       flex-direction: column-reverse;
     }
 
+    .horse{
+      width: 350px;
+    }
+
     .angela{
+      width: 150px;
       position: relative;
-      top: ;
+      top: -140px;
+      left: -40px;
+
     }
   
   }
