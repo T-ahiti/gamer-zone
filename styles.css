@@ -349,4 +349,17 @@
     .game-card{
       flex-direction: column;
     }
+
+    .we-gamer-container{
+      flex-direction: column;
+      flex-direction: column;
+      margin-left: 50px;
+      height: auto;
+      box-shadow: none;
+      width: 100%;
+    }
+
+    .we-writing-container {
+      text-align: center;
+    }
   }
