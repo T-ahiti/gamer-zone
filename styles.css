@@ -188,7 +188,9 @@
   }
 
   .quote{
-    
+    font-size: 21px;
+    font-weight: 700;
+    color: rgba(83, 76, 100, 1);
   }
 
  /* Section-2: card container started */
