@@ -490,8 +490,13 @@
     /* section:4 responsive */
     .games{
       background-color: white;
+      margin-left: 280px;
     }
-    
+
+    .small-badges{
+      width: 200px;
+    }
+
     .first-div{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -503,6 +508,8 @@
     }
 
     .strategy{
-
+      position: relative;
+      top: -130px;
+      left: 430px;
     }
   }
