@@ -344,6 +344,15 @@
     border-radius: 20px;
   }
 
+  .first-div{
+    display: flex;
+    justify-content: center;
+  }
+
+  .second-div{
+    display: flex;
+    justify-content: center;
+  }
 
 
   /* responsive started */
