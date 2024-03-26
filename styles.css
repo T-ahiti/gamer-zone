@@ -350,6 +350,7 @@
     height: 35px;
     padding: 8px;
     padding-right: 10px;
+    background-color: #fff;
   }
 
   .small-badges:hover{
@@ -363,7 +364,8 @@
   }
 
   .badge-title:hover{
-    color: rgba(255, 63, 164, 1) ;
+    color: rgba(255, 63, 164, 1);
+  
   }
 
   .first-div{
@@ -378,6 +380,13 @@
     justify-content: center;
     gap: 15px;
   }
+
+ 
+
+  /* footer started */
+
+
+
 
 
   /* responsive started */
@@ -476,7 +485,16 @@
       position: relative;
       top: -140px;
       left: -40px;
-
     }
   
+    /* section:4 responsive */
+    .first-div{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .second-div{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
