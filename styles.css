@@ -403,8 +403,18 @@
       gap: 40px;
       margin-top: 36px;
       margin-bottom: 32px;
+      cursor: pointer;
     }
-
+   
+    .terms{
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      font-size: 10px;
+      gap: 30px;
+      color: rgba(255, 255, 255, 0.6);
+      cursor: pointer;
+    }
 
 
 
