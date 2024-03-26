@@ -384,7 +384,15 @@
  
 
   /* footer started */
-
+    footer{
+      background-color: rgba(11, 2, 35, 1);
+      color: #fff;
+      padding-top: 70px;
+      text-align: center;
+    }
+   .footer-logo{
+    justify-content: center;
+   }
 
 
 
