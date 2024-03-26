@@ -332,7 +332,7 @@
   .games{
     padding-top: 70px;
     margin-top: 20px;
-    background-color: rgba(255, 66, 164, 0.365);
+    background-color: rgba(226, 146, 187, 0.071);
     padding-bottom: 70px;
   }
   
@@ -341,23 +341,34 @@
   }
 
   .small-badges{
-    border: 1px solid salmon;
+    border: none;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    padding: 10px;
+    gap: 10px;
+    height: 35px;
+    padding: 8px;
+    padding-right: 10px;
+  }
+
+  .badge-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(11, 2, 35, 1);
   }
 
   .first-div{
     display: flex;
     justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
   }
 
   .second-div{
     display: flex;
     justify-content: center;
+    gap: 15px;
   }
 
 
