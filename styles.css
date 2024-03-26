@@ -442,10 +442,13 @@
 
   /* responsive started */
   @media screen  and (max-width:576px){
+    /* header started */
     header{
         height: auto;
         margin-top: 50px;
     }
+
+    /* nav responsive */
     nav{
         flex-direction: column;
         height: auto;
@@ -467,6 +470,9 @@
         display: block;
     }
      
+
+
+    /* banner responsive started */
     .banner{
        flex-direction: column-reverse;
     }
@@ -486,20 +492,10 @@
        margin-left: 50px;
     }
 
-    /* section:2- responsive */
-    .card-container{
-     height: auto;
-     padding-top: 50px;
-     justify-content: center;
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-   }
 
-    .game-card{
-      flex-direction: column;
-    }
-
+    
+    /* main section started */
+    /* Section:1 responsive */
     .we-gamer-container{
       flex-direction: column;
       flex-direction: column;
@@ -509,11 +505,29 @@
       background-color: white;
       margin-bottom: 40px;
     }
-
     .we-writing-container {
       text-align: center;
     }
 
+
+
+    /* section:2- responsive */
+    .card-container{
+      height: auto;
+      padding-top: 50px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .game-card{
+      flex-direction: column;
+    }
+
+
+
+    /* Section: 3 responsive */
     .third-container{
       flex-direction: column;
       margin-left: 180px;
@@ -538,6 +552,8 @@
       left: -40px;
     }
   
+
+
     /* section:4 responsive */
     .games{
       background-color: white;
@@ -562,5 +578,16 @@
       position: relative;
       top: -130px;
       left: 430px;
+    }
+
+
+    /* footer responsive started */
+    footer{
+      width: 576px;
+    }
+
+    .story{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
