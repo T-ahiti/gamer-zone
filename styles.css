@@ -406,6 +406,12 @@
       margin-bottom: 32px;
       cursor: pointer;
     }
+
+    .footer-icon-container{
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
    
     .terms{
       font-weight: 400;
