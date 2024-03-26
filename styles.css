@@ -488,6 +488,10 @@
     }
   
     /* section:4 responsive */
+    .games{
+      background-color: white;
+    }
+    
     .first-div{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -496,5 +500,9 @@
     .second-div{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .strategy{
+
     }
   }
