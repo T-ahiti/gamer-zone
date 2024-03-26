@@ -330,7 +330,13 @@
 
   /* SEction:4-started */
   .games{
-    margin-top: 80px;
+    padding-top: 90px;
+    margin-top: 20px;
+    background-color: rgba(255, 66, 164, 0.365);
+  }
+  
+  .games img{
+    width: 40px;
   }
 
   .small-badges{
