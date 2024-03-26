@@ -352,10 +352,18 @@
     padding-right: 10px;
   }
 
+  .small-badges:hover{
+    border: 1px solid rgba(255, 63, 164, 1);
+    cursor: pointer;
+  }
+
   .badge-title{
     font-size: 14px;
     font-weight: 600;
-    color: rgba(11, 2, 35, 1);
+  }
+
+  .badge-title:hover{
+    color: rgba(255, 63, 164, 1) ;
   }
 
   .first-div{
