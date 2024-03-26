@@ -152,7 +152,6 @@
       align-items: center;
       gap: 50px;
       height: 400px;
-      width: 100vw;
       background-color: rgba(255, 66, 164, 0.055);
       margin-top: 0px;
       box-shadow: 0px -5px 10px rgba(197, 64, 153, 0.21);
@@ -327,6 +326,19 @@
     top: 25px ;
     left: 132px;
   }
+
+
+  /* SEction:4-started */
+  .games{
+    margin-top: 80px;
+  }
+
+  .small-badges{
+    border: 1px solid salmon;
+    border-radius: 20px;
+  }
+
+
 
   /* responsive started */
   @media screen  and (max-width:576px){
