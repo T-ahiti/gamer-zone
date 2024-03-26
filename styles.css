@@ -557,7 +557,8 @@
     /* section:4 responsive */
     .games{
       background-color: white;
-      margin-left: 280px;
+      /* margin-left: 280px; */
+      width: 576px;
     }
 
     .small-badges{
@@ -589,5 +590,15 @@
     .story{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-icon-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .terms{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
