@@ -330,9 +330,10 @@
 
   /* SEction:4-started */
   .games{
-    padding-top: 90px;
+    padding-top: 70px;
     margin-top: 20px;
     background-color: rgba(255, 66, 164, 0.365);
+    padding-bottom: 70px;
   }
   
   .games img{
@@ -341,7 +342,12 @@
 
   .small-badges{
     border: 1px solid salmon;
-    border-radius: 20px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 10px;
   }
 
   .first-div{
